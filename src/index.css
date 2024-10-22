@@ -1,0 +1,15 @@
+/* Tailwind Directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    scroll-behavior: smoooth;
+}
+*{
+    font-family: "Poppins", sans-serif;
+}
+span{
+    font-family: inherit;
+    font-weight: inherit;
+}
