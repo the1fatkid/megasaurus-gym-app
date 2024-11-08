@@ -1,28 +1,39 @@
 # Megasaurus Gym App 🦖💪
 
-Megasaurus Gym App is a dynamic React application that allows users to create a customized workout plan based on their preferred workout type and intensity level. The app utilizes React's state management, lifting state, and component architecture to deliver an interactive and user-friendly experience.
+MegaSaurus is a dynamic workout planning application built with React and Vite, styled using Tailwind CSS. This app helps users generate customized workout plans by selecting specific workout types, target muscle groups, and fitness goals. Whether you're a beginner looking to get started or an experienced lifter aiming for a tailored plan, MegaSaurus creates an efficient, structured, and goal-oriented workout experience.
 
 ## 🏋️‍♂️ Features
-- **Workout Customization**: Users can select workout types (e.g., cardio, strength, flexibility) and specify their desired intensity levels (e.g., beginner, intermediate, advanced).
-- **Dynamic Workout Plan**: A customized workout plan is generated based on user inputs.
-- **React State Management**: Employs React's state and context API for efficient data management and component communication.
-- **User-Friendly Interface**: Designed with a clean, intuitive UI that guides users through selecting their workout preferences and visualizing their workout plan.
+- Workout Selection: Choose between four types of workouts:
+    - Individual: Select up to 3 muscle groups for a highly personalized routine.
+    - Bro Split: Target one muscle group per session, popular in bodybuilding.
+    - Bodybuilder Split: Dedicated focus on specific muscles for balanced growth.
+    - Upper Lower: Alternate between upper and lower body for a balanced split.
+      
+- Goal Setting: Users can select from three main objectives:
+    - Strength Power: Designed for building maximal strength and power.
+    - Growth Hypertrophy: For muscle mass increase and hypertrophy.
+    - Cardiovascular Endurance: Focused on enhancing stamina and endurance.
+    
+- Curated Workout Plan: The app generates a tailored workout plan of 5-6 exercises chosen from a set of 125 workouts using an efficient JavaScript algorithm.
+
+- Progress Tracking: Users can keep a log of their repetitions for each workout, allowing them to track their progress over time.
 
 ## ⚛️ Technologies Used
-- **React.js**: Core library for building user interfaces and managing application state.
-- **React Router**: For navigation between different sections of the app, if applicable.
-- **HTML & CSS**: Structure and styling for a polished, responsive interface.
-- **JavaScript (ES6+)**: Logic for handling user interactions, generating workouts, and managing component state.
+- **React.js**: Modular component-based UI creation.
+- **Vite**: High-performance build tool and development server.
+- **Tailwind CSS**: Utility-first CSS framework for fast styling and responsiveness.
+- **JavaScript**: Algorithm logic for selecting workouts from a pool of 125 options.
+
 
 ## Demo
-Check out the live demo of the Megasaurus Gym App [here](https://your-username.github.io/megasaurus-gym-app/).
+Check out the live demo of the Megasaurus Gym App [here](https://the1fatkid.github.io/megasaurus-gym-app/).
 
 ## 🚀 Getting Started
 To set up the project locally for development and testing, follow these steps:
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/your-username/megasaurus-gym-app.git
+    git clone https://github.com/the1fatkid/megasaurus-gym-app.git
     ```
 
 2. **Navigate to the Project Directory**:
@@ -45,10 +56,16 @@ To set up the project locally for development and testing, follow these steps:
 
 
 ## 📝 How to Use
-1. **Select Workout Type**: Choose from various workout types like cardio, strength, or flexibility.
-2. **Set Intensity Level**: Pick an intensity level based on your fitness goals (beginner, intermediate, or advanced).
-3. **Generate Workout Plan**: A tailored workout plan will be created based on your selections.
-4. **Adjust Preferences**: Modify your workout type or intensity at any time to regenerate your plan.
+1. **Select Workout Type**: Begin by selecting one of four workout types:
+    - Individual: Allows up to 3 muscle groups.
+    - Bro Split, Bodybuilder Split, Upper Lower: Allows selection of 1 muscle group.
+2. **Choose Muscle Groups**: Customize the workout further by selecting specific muscle groups depending on the workout type.
+3. **Set Your Objective**: Choose one of three objectives:
+    - **Strength Power** for high-intensity, low-rep routines.
+    - **Growth Hypertrophy** for muscle growth and size.
+    - **Cardiovascular** Endurance for improved stamina and endurance.
+4. **Get Workout Plan**: The app generates a workout plan with 5-6 exercises that match your selections, powered by a JavaScript algorithm selecting from a variety of 125 exercises.
+5. **Track Your Progress**: Record the number of reps completed for each workout, helping you keep track of your progress over time.
 
 ## 📈 Project Highlights
 - **State Management with React**: Utilizes React’s state and context to lift state and share data across components, ensuring real-time updates and consistent UI.
